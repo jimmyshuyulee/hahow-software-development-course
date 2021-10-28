@@ -25,8 +25,8 @@ jobs:
     - name: Install dependencies
       run: make init
       
-    - name: format
-      run: make format
-      
     - name: lint
       run: make lint
+
+    - name: test
+      run: make test-all
