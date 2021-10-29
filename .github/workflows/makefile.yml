@@ -37,3 +37,10 @@ jobs:
 
       - name: Test
         run: make test-all
+
+      - name: Deploy
+        uses: akhileshns/heroku-deploy@v3.0.0
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "hahow-software-development"
+          heroku_email: "jimmyjoy850812@gmail.com"
