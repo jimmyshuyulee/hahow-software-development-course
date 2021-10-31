@@ -53,4 +53,4 @@ jobs:
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "hahow-sd-course-beta"
-          heroku_email: "jimmyjoy850812@gmail.com"
+          heroku_email: "" # 請同學輸入用來申請 Heroku 帳號的 email
