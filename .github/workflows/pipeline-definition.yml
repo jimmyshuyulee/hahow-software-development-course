@@ -2,9 +2,9 @@ name: CI/CD Pipeline Definition
 
 on:
   push:
-    branches: [ main ]
+    branches: [ demo-main ]
   pull_request:
-    branches: [ main ]
+    branches: [ demo-main ]
 
 jobs:
   build:
